@@ -15,7 +15,7 @@ endif
 let s:cpo_save = &cpo
 set cpo-=C
 
-CompilerSet makeprg=cucumber
+CompilerSet makeprg=cucumber-js
 
 CompilerSet errorformat=
       \%W%m\ (Cucumber::Undefined),
